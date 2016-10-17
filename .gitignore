@@ -1,12 +1,20 @@
-*.class
+import java.util.Scanner;
+public class Initials
+{
+    public static void main(String[] args)
+    {
+        String name = new String();
+        System.out.println("Enter your full name");
+        Scanner input = new Scanner(System.in);
+        name = input.nextLine();
+        char c = name.charAt(0);
+        System.out.println(c);
+        for (int i = 1; i < name.length(); i++) 
+        {
+            char c = name.charAt(i);
+            if (c == '') 
+            {
+                System.out.println(name.charAt(i - 1));
+        
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+        
