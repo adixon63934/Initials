@@ -15,6 +15,7 @@ public class Initials
             if (c == '') 
             {
                 System.out.println(name.charAt(i - 1));
-        
+            }
+}
 
         
