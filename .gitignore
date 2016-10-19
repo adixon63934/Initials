@@ -16,6 +16,7 @@ public class Initials
             {
                 System.out.println(name.charAt(i - 1));
             }
+        }
 }
 
         
